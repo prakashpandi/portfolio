@@ -4,12 +4,12 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link href="https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Prakash in AR</title>
     <style>
       body{
         margin:0;
-        font-family: 'Beth Ellen', cursive;
+        font-family: 'Open Sans', sans-serif;
       }
       .container{
         display: flex;
@@ -67,15 +67,29 @@
     </style>
   </head>
   <body>
+    <div class="content">
+      <div class="wrapper">
+        
+
+      </div>
+    </div>
       <div class="container">
         <div class="left">
           
-          <div class="texthighlight">
-              Hey, there! 
-          </div>
-
-          
+          <div class="heading">
+          <div class="lockup zero-interaction"><div class="icon-button icon-modelviewer-black"></div><h1>Hello, there</h1></div>
+          <h3 style="font-weight:400;">Interactive 3D avatar on the web &amp; in AR</h3>
         </div>
+          <div class="center">
+            This awesome project called model-viewer allows you to view your models in WebXR. 
+            From PC, the avatar is a regular 3D model, but when viewed from AR enabled mobile devices,
+            like ARKit with iOS and ARCore with Android, model viewer invokes the native AR viewer which allows
+            us to place our models over planes from web. AR on web is nice!
+          </div>
+        <div class="left">
+          <a href="https://modelviewer.dev/">Model Viewer</a></div>
+        </div>
+        
         <div class="right">
             <div class="object">
                 <model-viewer ar camera-controls autoplay src="../assets/models/prakash.gltf" background-color="#455A64" alt="Prakash"></model-viewer>
